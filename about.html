@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>University Website Design</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;500&display=swap" rel="stylesheet">
+<script src="https://use.fontawesome.com/08aef15e38.js"></script>	
+</head>
+<body>
+<section class="sub-header">
+		<nav>
+			<a href="heading.html"><img src="images/logo.png"> </a>
+            <div class="nav-links" id="navLinks">
+            	<i class="fa fa-times" onclick="hideMenu()"></i>
+            	<ul>
+            		<li><a href="index.html">HOME</a></li>
+            	    <li><a href="about.html">ABOUT</a></li>
+            	    <li><a href="course.html">COURSE</a></li>
+            	    <li><a href="blog.html">BLOG</a></li>
+            	    <li><a href="contact.html">CONTACT</a></li>
+            	</ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()">Menu</i>
+		</nav> 
+		<h1>About Us</h1>  		
+</section>	
+
+<!--------About Us Content------->
+<section class="about-us">
+	<div class="row">
+		<div class="about-col">
+			<h1>
+				We are the world's largest University</h1>
+				<p>Harvard University is a private Ivy League research university in Cambridge, 
+					Massachusetts. Founded in 1636 as Harvard College and named for its first benefactor, the Puritan clergyman John Harvard, 
+					it is the oldest institution of higher learning in the United States and among the most prestigious in the world.[6]
+
+					The Massachusetts colonial legislature authorized Harvard's founding, "dreading to leave an illiterate
+					 ministry to the churches, when our present ministers shall lie in the dust"; though never formally 
+					 affiliated with any denomination, in its early years Harvard College primarily trained Congregational clergy. 
+					 Its curriculum and student body were gradually secularized during the 18th century, and by the 19th century, 
+					 it had emerged as the central cultural establishment among the Boston elite.[7][8] Following the American 
+					 Civil War, President Charles William Eliot's long tenure (1869–1909) transformed the college and affiliated 
+					 professional schools into a modern research university; Harvard became a founding member of the Association of 
+					 American Universities in 1900.[9] James B. Conant led the university through the Great Depression and World War 
+					 II, and liberalized admissions after the war.</p>
+					<a href="" class="wala red-wala">EXPLORE NOW!</a>
+		</div>
+		<div class="about-col">
+			<img src="images/about.jpg">
+	    </div>
+	</div>
+
+</section>
+
+<!--------Footer------->
+<section class="footer">
+	<h1>About Us</h1>
+	<p>“The ‘About Us’ page is the ideal place 
+		to let your visitors know what makes your business 
+		unique. Address the who, why, what, and how your 
+		company is best suited to deliver the solutions they’re searching for.<br> And don’t 
+		forget to include a contact form on this page. After you sell them on why your brand is the best fit, 
+		you want to make it easy for them to reach out.”</p>
+		<div class="icons">
+			<a href="https://www.facebook.com/johnselrizo.barado/"><i class="fa fa-facebook"></i></a>
+			<i class="fa fa-twitter"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-linkedin"></i>
+		</div>
+		<p>Made with <i class="fa fa-heart-o"></i> By Johnsel Barado</p>
+
+</section>
+<!------JavaScript for Toggle Menu----->
+<script>
+
+	var navLinks = document.getElementById("navLinks"); 
+	function showMenu (){	
+		navLinks.style.right = "0";
+	}
+	function hideMenu (){
+	    navLinks.style.right = "-200px";	
+	}
+</script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
